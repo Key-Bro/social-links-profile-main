@@ -25,7 +25,7 @@ body {
     max-width: 350px;
     width: 90%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -33,7 +33,7 @@ body {
 .profil-picture {
     display: block;
     border-radius: 50%;
-    width: 40%;
+    width: 35%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -42,6 +42,7 @@ body {
 .text {
     color: var(--White);
     font-size: 12px;
+    text-align: center;
 }
 
 #name {
@@ -73,14 +74,21 @@ body {
     background-color: var(--Gray700);
     color: var(--White);
     border-radius: 5px;
-    width: 90%;
+    width: 80%;
     height: 40px;
     border: none;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-weight: 600;
 }
 
 .button:hover{
     color: black;
     background-color: var(--Green);
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    font-size: 15px;
+    padding: 10px;
 }
